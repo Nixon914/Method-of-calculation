@@ -70,8 +70,7 @@ T(k+1) = α · T(k),  0 < α < 1
 .
 ├── saafgwo.py          # 主演算法程式（simulated_annealing / levy_flight /
 │                        #   quadratic_interpolation / gwo_afsa_with_worst_update）
-├── README.md
-└── requirements.txt
+└──README.md
 ```
 
 ---
@@ -188,14 +187,6 @@ print("Best fitness:", best_score)
 }
 ```
 
----
-
-## 🙏 致謝
-
-本研究由 National Pingtung University 部分經費支持。
-
----
-
 ## 📚 主要參考文獻
 
 1. S. Mirjalili, S. M. Mirjalili, and A. Lewis, "Grey Wolf Optimizer," *Advances in Engineering Software*, vol. 69, pp. 46–61, 2014.
@@ -204,7 +195,3 @@ print("Best fitness:", best_score)
 4. A. Tzanetos and M. Blondin, "A qualitative systematic review of metaheuristics applied to tension/compression spring design problem," *Eng. Appl. Artif. Intell.*, vol. 118, 2023.
 
 完整參考文獻請見論文原文。
-
-## 📜 授權 (License)
-
-建議依你的需求加入 LICENSE 檔案（如 MIT License）。若尚未決定，可先標註「僅供學術研究使用」。
